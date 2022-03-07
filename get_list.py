@@ -23,7 +23,7 @@ def runip():
 if __name__ == "__main__":
 	ooo = input('list : ')
 	ooo = open(ooo,'r')
-	kontol = input('save : ')
+	reks1 = input('save : ')
 	ok = []
 	print('Please Wait...')
 	
@@ -36,5 +36,5 @@ if __name__ == "__main__":
 	ok = list(ok)
 	for hh in ok:
 		print ('[$$$]  '+hh)
-		with open(kontol,'a') as it:
+		with open(reks1,'a') as it:
 			it.writelines(hh+'\n')
